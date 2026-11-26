@@ -1,0 +1,16 @@
+{
+  "lmax_h": 2,
+  "hidden_features": 64,
+  "num_graph_layers": 3,
+  "num_prepool_layers": 2,
+  "num_postpool_layers": 2,
+  "layer_norm": "batch",
+  "pooling": "mean",
+  "radius": 6.0,
+  "max_neighbors": 32,
+  "learning_rate": 0.001,
+  "weight_decay": 0.00001,
+  "epochs": 100,
+  "batch_size": 16,
+  "seed": 13
+}

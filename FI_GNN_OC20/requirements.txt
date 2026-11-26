@@ -1,0 +1,17 @@
+# Dependencies for the OC20 adsorption baseline.
+# Install torch_scatter using a build compatible with your torch/platform.
+# The existing fire_oc20 Conda environment already includes torch and PyG.
+torch>=2.1
+numpy<2
+torch_geometric
+torch_scatter
+e3nn==0.5.1
+pymatgen==2024.5.1
+lmdb
+
+# Optional Orb support in fire_gnn. Keep PyTorch and its matching
+# CUDA/CPU torch_scatter build compatible; see ../README.md.
+torch==2.6.0
+orb-models==0.5.5
+pymatgen==2024.5.1
+numpy>=1.26.4,<2
